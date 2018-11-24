@@ -4,10 +4,7 @@ public class Ques2
 {
 	public int checkRedundantBraces(String str)
 	{
-		if (str.length() == 0) 
-        {
-            return 0;
-        }
+		
         if(str == null || str.length() == 0) return 0;
         Stack<Character> stackObject = new Stack<Character>();
         int i = 0;
